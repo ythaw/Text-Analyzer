@@ -11,19 +11,21 @@ A simple Java command-line tool that counts lines, words, and characters in a te
 - Handles invalid input and file errors
 
 ## To Compile
-In terminal
+```bash
 javac TextAnalyzer.java
-
+```
 ## To Run
-In terminal
+```bash
 java TextAnalyzer sample.txt
 java TextAnalyzer -l sample.txt
 java TextAnalyzer -w -c sample.txt
-
+```
 ## Sample Output
-File: sample.txt
-Words: 7
-Chars: 34
+```bash
+ File: sample.txt
+ Words: 7
+ Chars: 34
+```
 
-##Limitations
+## Limitations
 - Character counting includes newline characters
